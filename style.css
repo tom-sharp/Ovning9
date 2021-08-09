@@ -1,0 +1,64 @@
+
+body {
+    background-color: rgb(161, 3, 3);
+    color: cornsilk;
+}
+.infotitle {
+	background-color: rgb(161, 3, 3);
+	color: cornsilk;
+}
+.errormessage {
+	background-color: rgb(0 0 0);
+	color: red;
+}
+.successmessage {
+	background-color: rgb(87 235 74);
+	color: black;
+}
+.infotext {
+    background-color: rgb(161, 3, 3);
+    color: cornsilk;
+}
+.TopRow {
+	background-color: rgb(161, 3, 3);
+	height: 30px;
+	color: cornsilk;
+}
+.BottomRow {
+    background-color: rgb(211, 149, 149);
+    color: rgb(109, 107, 97);
+    height: 30px;
+}
+.page {
+    background-color: rgb(161, 3, 3);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.product {
+    text-align: center;
+    font-size: large;
+}
+.price {
+    text-align: center;
+    font-size: x-large;
+}
+.todoActive {
+	background-color: rgb(0 0 0);
+	color: white;
+	height: 30px;
+	font:700;
+}
+.todoInActive {
+	background-color: rgb(161, 3, 3);
+	color: white;
+	height: 30px;
+	font: 300;
+	text-decoration:line-through;
+}
+.inputForm {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
