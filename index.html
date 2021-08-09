@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title id="pagetitle">Working</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="TopRow"> <h3 class="infotitle">Bish-Bosh 2.0</h3> </header>
+	<section>
+		<div>
+			<p clas="infotext">
+				Bish-Bosh listar alla tal mellan 1 och 100, men vissa undantag: Om talet är jämnt delbart
+				med 3 listas ‘Bish’ istället för talet. Om talet är jämnt delbart med 4 listas ‘ Bosh ’ istället för
+				talet. Om talet är jämnt delbart med både med 3 och 4 skrivs “ Bish-Bosh ” istället för talet.
+			</p>
+			<p clas="infotext">
+				Bish-Bosh 2.0 är ett anpassat interface för att testa andra nummer och intervaller.
+			</p>
+		</div>
+		<form>
+			<input type="text" id="inputBish" placeholder="Enter Bish number">
+			<input type="text" id="inputBosh" placeholder="Enter Bosh number">
+			<input type="text" id="inputNumbers" placeholder="Enter Numbers to test">
+			<button id="btnSubmit">Button Submit</button>
+			<button id="btnClear">Clear</button>
+		</form>
+		<p id="errormsg" class="errormessage"></p>
+		<p id="successmsg" class="successmessage"></p>
+		<div id="ResultList">
+			<p id="rline"></p>
+		</div>
+
+	</section>
+
+	<script src="./bishbosh.js"></script>
+	<footer class="BottomRow">
+		<p>&copy;2021 WebCo - Contact webmasters@webco.fake.me</p>
+	</footer>
+</body>
+
+</html>
